@@ -1,4 +1,5 @@
 let container = document.querySelector('#container');
+let sizeBtn = document.querySelector('#size-button');
 let ratio = 16;
 
 for (i = 0; i < ratio**2; i++) {

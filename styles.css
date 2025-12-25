@@ -5,7 +5,8 @@
 }
 
 html,
-body {
+body,
+#content {
   height: 100%;
 }
 
@@ -15,13 +16,20 @@ body {
   align-items: center;
 }
 
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
 
-
-
-
-
-
-
+#size-button {
+  height: 5%;
+  width: 10%;
+  border-radius: 10px;
+  align-self: flex-start;
+  border: black 4px solid;
+}
 
 #container {
   height: 75%;
