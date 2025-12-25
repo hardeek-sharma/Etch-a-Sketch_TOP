@@ -23,12 +23,23 @@ body {
   gap: 8px;
 }
 
-#size-button {
-  height: 5%;
-  width: 10%;
+button {
+  height: 72px;
+  width: 120px;
   border-radius: 10px;
-  align-self: flex-start;
   border: black 4px solid;
+}
+#rainbow-button {
+  color: yellow;
+  font-weight: 900;
+  width: 200px;
+  background-color: red;
+  border: 4px aqua solid;
+}
+#rainbow-button.clicked {
+  color: purple;
+  background-color: aqua;
+  border: 4px red solid;
 }
 
 #container {
