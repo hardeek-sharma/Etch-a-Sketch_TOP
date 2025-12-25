@@ -15,8 +15,26 @@ body {
   align-items: center;
 }
 
+
+
+
+
+
+
+
+
 #container {
-  height: 90%;
+  height: 75%;
   aspect-ratio: 1 / 1;
   border: black 4px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: rgb(128, 128, 128) 1px solid;
+}
+
+.hovered {
+  background-color: black;
 }
