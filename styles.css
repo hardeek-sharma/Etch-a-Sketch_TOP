@@ -8,3 +8,15 @@ html,
 body {
   height: 100%;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  height: 90%;
+  aspect-ratio: 1 / 1;
+  border: black 4px solid;
+}
